@@ -19,7 +19,7 @@ while True:
     image, face = m.faceDetector(frame, grayFrame)
     
     # calling landmarks detector funciton.
-    image, PointList = m.faceLandmakDetector(frame, grayFrame, face)
+    # image, PointList = m.faceLandmakDetector(frame, grayFrame, face)
 
     # showing the frame on the screen
     cv.imshow('Frame', image)
