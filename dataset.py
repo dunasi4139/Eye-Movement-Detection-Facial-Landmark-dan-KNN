@@ -27,5 +27,8 @@ for fitur, label in train_data :
     y.append(label)
 
 X = np.array(X).reshape(-1, IMG_SIZE,IMG_SIZE,1)
-
+print("Banyaknya Train Data %d"  %len(train_data))
 print(X[1])
+print(y)
+plt.imshow(X[1], cmap = "gray")
+plt.show()
